@@ -83,7 +83,6 @@ evaluate.py             Terminal model comparison and saving
 data/                   Raw and cleaned datasets
 models/                 Saved models and vectorizers
 results/                Recorded experiment results
-tests/                  Data, model, and app checks
 .streamlit/config.toml  Light/crimson theme
 requirements.txt        Python dependencies
 ```
@@ -101,9 +100,3 @@ python evaluate.py
 ```
 
 The terminal scripts use the original TF-IDF workflow. The app uses `spam_core.py` for CV with per-fold feature extraction and normalized deduplication, so its reported scores can differ from terminal results. Saved model/vectorizer pairs remain compatible with the app.
-
-## Tests
-
-```bash
-python -m unittest discover -s tests -v
-```
