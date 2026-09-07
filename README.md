@@ -1,6 +1,6 @@
 # Optimized Spam Detection System
 
-TechMaster Academy — Phase 03: ML Fundamentals & Optimization.
+TechMaster Academy - Phase 03: ML Fundamentals & Optimization.
 
 A Python project that classifies SMS messages as **spam** or **ham** using Naive Bayes, Logistic Regression, and a linear Support Vector Machine. A Streamlit interface provides access to data inspection, predictions, training, tuning, and model comparison.
 
