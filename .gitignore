@@ -2,3 +2,4 @@ __pycache__/vectorize_data.cpython-314.pyc
 __pycache__/logistic_regression.cpython-314.pyc
 __pycache__/naive_bayes.cpython-314.pyc
 __pycache__/SVM.cpython-314.pyc
+*.pyc
