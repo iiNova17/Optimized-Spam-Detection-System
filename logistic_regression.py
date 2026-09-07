@@ -109,7 +109,6 @@ def run_logistic_regression():
         y_test
     )
 
-    return model, vectorizer
 
 
 if __name__ == "__main__":

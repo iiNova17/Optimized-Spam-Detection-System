@@ -33,10 +33,17 @@ def evaluate_models():
         logistic_regression_results
     ])
 
+    
 
     print("\nModels Comparison: ")
 
     print(results)
+    print("\nSVM matrix:")
+    print(svm_matrix)
+    print("\nNaive Bayes matrix:")
+    print(naive_bayes_matrix)
+    print("\nLogistic regression matrix:")
+    print(logistic_regression_matrix)
 
 if __name__ == "__main__":
     evaluate_models()
