@@ -92,7 +92,7 @@ def run_logistic_regression():
     """Run the complete Logistic Regression pipeline."""
 
     # Load and vectorize data
-    X_train, X_test, y_train, y_test, vectorizer = vectorize_data(
+    X_train, X_test, y_train, y_test, _ = vectorize_data(
         "data/cleaned.csv"
     )
 
@@ -109,7 +109,6 @@ def run_logistic_regression():
         y_test
     )
 
-    return model, vectorizer
 
 
 if __name__ == "__main__":
