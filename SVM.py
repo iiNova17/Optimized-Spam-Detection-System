@@ -92,7 +92,7 @@ def run_svm():
     """Run the complete SVM pipeline."""
 
     # Load and vectorize data
-    X_train, X_test, y_train, y_test, vectorizer = vectorize_data(
+    X_train, X_test, y_train, y_test, _ = vectorize_data(
         "data/cleaned.csv"
     )
 
