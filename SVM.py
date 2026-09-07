@@ -109,8 +109,6 @@ def run_svm():
         y_test
     )
 
-    return model, vectorizer
-
 
 if __name__ == "__main__":
     run_svm()
