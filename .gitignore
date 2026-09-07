@@ -1,5 +1,21 @@
-__pycache__/vectorize_data.cpython-314.pyc
-__pycache__/logistic_regression.cpython-314.pyc
-__pycache__/naive_bayes.cpython-314.pyc
-__pycache__/SVM.cpython-314.pyc
-*.pyc
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
